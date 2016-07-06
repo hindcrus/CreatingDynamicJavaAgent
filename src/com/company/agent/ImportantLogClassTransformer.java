@@ -67,7 +67,7 @@ public class ImportantLogClassTransformer implements
                 .getAttribute(AnnotationsAttribute.invisibleTag);
         if (attInfo != null) {
             // this is the type name meaning use dots instead of slashes
-            return attInfo.getAnnotation("com.example.qcon.mains.ImportantLog");
+            return attInfo.getAnnotation("ImportantLog");
         }
         return null;
     }
@@ -96,7 +96,7 @@ public class ImportantLogClassTransformer implements
                 sb.append("sb.append(\"\\n Index: \");");
                 sb.append("sb.append(\"");
                 sb.append(index);
-                sb.append("\");sb.append(\" value: \");");
+                sb.append("\");sb.appcd end(\" value: \");");
                 sb.append("sb.append($" + localVar + ");");
             } catch (NumberFormatException e) {
                 e.printStackTrace();
