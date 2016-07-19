@@ -96,7 +96,7 @@ public class ImportantLogClassTransformer implements
                 sb.append("sb.append(\"\\n Index: \");");
                 sb.append("sb.append(\"");
                 sb.append(index);
-                sb.append("\");sb.appcd end(\" value: \");");
+                sb.append("\");sb.append(\" value: \");");
                 sb.append("sb.append($" + localVar + ");");
             } catch (NumberFormatException e) {
                 e.printStackTrace();
